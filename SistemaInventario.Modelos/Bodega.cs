@@ -22,7 +22,7 @@ namespace SistemaInventario.Modelos
         public string Descripcion { get; set; }
 
 
-        [Required(ErrorMessage = "Descripcion es Requerido...")]
+        [Required(ErrorMessage = "Descripcion es Requerido")]
         public bool Estado { get; set; }
 
     }
